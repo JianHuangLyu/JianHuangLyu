@@ -6,7 +6,7 @@
 
 ### 👋 嗨，我是 **呂建篁 Jian-Huang Lyu**
 
-成大電機（資工組）碩士生 · 專注 **電腦視覺**、**多模態 AI** 與 **醫學影像分割** · 📍 Tainan, Taiwan
+成大電機（資工組）碩士生 · 專注 **電腦視覺**、**多模態 AI**、**LLM/VLM 應用** 與 **醫學影像分割** · 📍 Tainan, Taiwan
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-JHWEB-1e3c72?style=for-the-badge&logo=githubpages&logoColor=white)](https://jianhuanglyu.github.io/JHWEB/)
 [![Email](https://img.shields.io/badge/Email-a7929771%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a7929771@gmail.com)
@@ -18,7 +18,7 @@
 
 ## 🧑‍💻 About Me
 
-我是 **國立成功大學電機工程學系（資訊工程組）** 碩士生，預計 2027 年畢業，專注於 **電腦視覺、多模態 AI 與醫學影像分割**，具備資料集建置、模型訓練、LLM / VLM 應用到邊緣裝置部署的完整開發經驗。曾於 **國網中心（NCHC）** 暑期實習期間，自主提案並獨立完成病理影像異常定位與結構化報告系統，也曾在課程中帶領 7 人團隊完成 Jetson 邊緣 AI 量化部署。目前正在尋找 **AI/ML、電腦視覺或 LLM/VLM 應用研發工程** 相關職缺。工作之外是累積 10 年跑齡的跑者。
+我是 **國立成功大學電機工程學系（資訊工程組）** 碩士生，預計 2027 年畢業，專注於 **電腦視覺、多模態 AI 與醫學影像分割**，具備資料集建置、模型訓練、LLM / VLM 應用到邊緣裝置部署的完整開發經驗。曾於 **國網中心（NCHC）** 暑期實習期間，自主提案並獨立完成病理影像異常定位與結構化報告系統，也曾在課程中帶領 7 人團隊完成 Jetson 邊緣 AI 量化部署
 
 ---
 
