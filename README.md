@@ -32,7 +32,7 @@ During my summer internship, I proposed and independently built a pathology imag
 
 </div>
 
-| 類別 | 技術 |
+| Class | Tech |
 |:--|:--|
 | **Programming & Tools** | <a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a> <a><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /></a> <a><img src="https://img.shields.io/badge/Slurm_(HPC)-4B5563?style=flat-square" alt="Slurm" /></a> |
 | **AI / Computer Vision** | <a><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" /></a> <a><img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square&logo=ultralytics&logoColor=white" alt="YOLO" /></a> <a><img src="https://img.shields.io/badge/Object_Detection-6366F1?style=flat-square" alt="Object Detection" /></a> <a><img src="https://img.shields.io/badge/Image_Classification-8B5CF6?style=flat-square" alt="Image Classification" /></a> <a><img src="https://img.shields.io/badge/Optical_Flow-0EA5E9?style=flat-square" alt="Optical Flow" /></a> <a><img src="https://img.shields.io/badge/Self--Attention-14B8A6?style=flat-square" alt="Self-Attention" /></a> <a><img src="https://img.shields.io/badge/Multimodal_Fusion-F59E0B?style=flat-square" alt="Multimodal Fusion" /></a> |
@@ -45,7 +45,7 @@ During my summer internship, I proposed and independently built a pathology imag
 
 ## 🚀 Projects
 
-| 專案 | 連結 |
+| Project | Link |
 |:--|:--|
 | **Structured Pathology Image Analysis via YOLO-Based Abnormality Detection and Skill Optimization** (Internship) | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Structured-Pathology-Image-Analysis-via-YOLO-Based-Abnormality-Detection-and-skill-optimization/blob/main/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1BliE2S8V1c) |
 | **Edge AI Image Style Transfer System on NVIDIA Jetson Xavier NX** (Course Project) | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Master/tree/main/114-2/ARTIFICAL%20INTELLIGENCE%20IN%20DIGITAL%20SIGNAL%20ANALYSIS%20AND%20ITS%20APPLICATIONS/Image-Style-Transfer) [![Docker Doc](https://img.shields.io/badge/HackMD-Docker_Guide-333333?style=flat-square&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500/r1MNSk1czg) |
