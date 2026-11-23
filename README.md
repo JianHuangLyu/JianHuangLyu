@@ -12,9 +12,6 @@
 [![Email](https://img.shields.io/badge/Email-a7929771%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a7929771@gmail.com)
 [![HackMD](https://img.shields.io/badge/HackMD-%40abcd09500-333333?style=for-the-badge&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500)
 
-
-![Profile Views](https://komarev.com/ghpvc/?username=JianHuangLyu&color=2a5298&style=flat-square&label=Profile+Views)
-
 </div>
 
 ---
