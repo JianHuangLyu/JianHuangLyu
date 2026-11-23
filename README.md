@@ -36,11 +36,11 @@
 
 | 類別 | 技術 |
 |:--|:--|
-| 💻 **Programming & Tools** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Slurm](https://img.shields.io/badge/Slurm_(HPC)-4B5563?style=flat-square) |
-| 👁️ **AI / Computer Vision** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO11-111F68?style=flat-square&logo=ultralytics&logoColor=white) ![Object Detection](https://img.shields.io/badge/Object_Detection-6366F1?style=flat-square) ![Image Classification](https://img.shields.io/badge/Image_Classification-8B5CF6?style=flat-square) ![Optical Flow](https://img.shields.io/badge/Optical_Flow-0EA5E9?style=flat-square) ![Self-Attention](https://img.shields.io/badge/Self--Attention-14B8A6?style=flat-square) ![Multimodal Fusion](https://img.shields.io/badge/Multimodal_Fusion-F59E0B?style=flat-square) |
-| 🤖 **LLM / VLM Application** | ![vLLM](https://img.shields.io/badge/vLLM-30A2FF?style=flat-square) ![VLM Inference](https://img.shields.io/badge/VLM_Inference-7C3AED?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-DB2777?style=flat-square) ![Structured JSON](https://img.shields.io/badge/Structured_JSON_Output-000000?style=flat-square&logo=json&logoColor=white) ![SkillOpt](https://img.shields.io/badge/Microsoft_SkillOpt-5E5E5E?style=flat-square) |
-| ⚡ **Edge AI & Optimization** | ![Jetson](https://img.shields.io/badge/Jetson_Xavier_NX-76B900?style=flat-square&logo=nvidia&logoColor=white) ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white) ![INT8 PTQ](https://img.shields.io/badge/INT8_PTQ-F97316?style=flat-square) |
-| 🌐 **Backend & Deployment** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white) ![REST API](https://img.shields.io/badge/RESTful_API-2563EB?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+|  **Programming & Tools** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Slurm](https://img.shields.io/badge/Slurm_(HPC)-4B5563?style=flat-square) |
+|  **AI / Computer Vision** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO11-111F68?style=flat-square&logo=ultralytics&logoColor=white) ![Object Detection](https://img.shields.io/badge/Object_Detection-6366F1?style=flat-square) ![Image Classification](https://img.shields.io/badge/Image_Classification-8B5CF6?style=flat-square) ![Optical Flow](https://img.shields.io/badge/Optical_Flow-0EA5E9?style=flat-square) ![Self-Attention](https://img.shields.io/badge/Self--Attention-14B8A6?style=flat-square) ![Multimodal Fusion](https://img.shields.io/badge/Multimodal_Fusion-F59E0B?style=flat-square) |
+|  **LLM / VLM Application** | ![vLLM](https://img.shields.io/badge/vLLM-30A2FF?style=flat-square) ![VLM Inference](https://img.shields.io/badge/VLM_Inference-7C3AED?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-DB2777?style=flat-square) ![Structured JSON](https://img.shields.io/badge/Structured_JSON_Output-000000?style=flat-square&logo=json&logoColor=white) ![SkillOpt](https://img.shields.io/badge/Microsoft_SkillOpt-5E5E5E?style=flat-square) |
+|  **Edge AI & Optimization** | ![Jetson](https://img.shields.io/badge/Jetson_Xavier_NX-76B900?style=flat-square&logo=nvidia&logoColor=white) ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white) ![INT8 PTQ](https://img.shields.io/badge/INT8_PTQ-F97316?style=flat-square) |
+|  **Backend & Deployment** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white) ![REST API](https://img.shields.io/badge/RESTful_API-2563EB?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 | 🧪 **Evaluation & Testing** | ![Cross-Validation](https://img.shields.io/badge/Cross--Validation-64748B?style=flat-square) ![Ablation Study](https://img.shields.io/badge/Ablation_Study-64748B?style=flat-square) ![Benchmarking](https://img.shields.io/badge/Model_Benchmarking-64748B?style=flat-square) ![Integration Testing](https://img.shields.io/badge/Integration_Testing-64748B?style=flat-square) |
 
 ---
@@ -49,9 +49,9 @@
 
 | 專案 | 連結 |
 |:--|:--|
-| 🔬 **病理影像異常區域定位與結構化分析系統**（實習） | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Structured-Pathology-Image-Analysis-via-YOLO-Based-Abnormality-Detection-and-skill-optimization/blob/main/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1BliE2S8V1c) [![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1-3s4H_59ZUVVIXolgl8v3kofn-X0EsVymyNLGiIA_hE/edit?usp=sharing) |
-| ⚡ **Jetson Xavier NX 邊緣 AI 風格轉換系統**（課程專案） | [![Repo](https://img.shields.io/badge/GitHub-Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Master/tree/main/114-2/ARTIFICAL%20INTELLIGENCE%20IN%20DIGITAL%20SIGNAL%20ANALYSIS%20AND%20ITS%20APPLICATIONS/Image-Style-Transfer) [![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1BzTQxur_tb-BX7tnjprv2iyfuoyTL0Am/edit?usp=sharing&ouid=105064244977899019676&rtpof=true&sd=true) [![Docker Doc](https://img.shields.io/badge/HackMD-Docker_Guide-333333?style=flat-square&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500/r1MNSk1czg) |
-| 😮 **多模態即時微表情辨識系統**（畢業專題 🥉） | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Bachelor/blob/main/Senior%20Project/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=WqFC5YTgZJo) |
+|  **病理影像異常區域定位與結構化分析系統**（實習） | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Structured-Pathology-Image-Analysis-via-YOLO-Based-Abnormality-Detection-and-skill-optimization/blob/main/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1BliE2S8V1c) [![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1-3s4H_59ZUVVIXolgl8v3kofn-X0EsVymyNLGiIA_hE/edit?usp=sharing) |
+|  **Jetson Xavier NX 邊緣 AI 風格轉換系統**（課程專案） | [![Repo](https://img.shields.io/badge/GitHub-Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Master/tree/main/114-2/ARTIFICAL%20INTELLIGENCE%20IN%20DIGITAL%20SIGNAL%20ANALYSIS%20AND%20ITS%20APPLICATIONS/Image-Style-Transfer) [![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1BzTQxur_tb-BX7tnjprv2iyfuoyTL0Am/edit?usp=sharing&ouid=105064244977899019676&rtpof=true&sd=true) [![Docker Doc](https://img.shields.io/badge/HackMD-Docker_Guide-333333?style=flat-square&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500/r1MNSk1czg) |
+|  **多模態即時微表情辨識系統**（畢業專題 🥉） | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Bachelor/blob/main/Senior%20Project/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=WqFC5YTgZJo) |
 
 ---
 
@@ -84,17 +84,5 @@
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JianHuangLyu&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
 
 <img src="https://streak-stats.demolab.com?user=JianHuangLyu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
----
-
-<div align="center">
-
-### 🤝 歡迎交流 AI / CV / LLM 應用與合作機會！
-
-⭐ 感謝來訪，喜歡的專案歡迎給顆星 ⭐
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=110&section=footer" width="100%" />
 
 </div>
