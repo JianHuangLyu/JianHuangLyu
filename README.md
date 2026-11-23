@@ -22,13 +22,7 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 **國立成功大學** 電機工程學系（資訊工程組）碩士生，預計 **2027** 畢業
-- 🔬 研究方向：醫學影像處理、LLM / VLM 醫療應用、電腦視覺
-- 🧫 碩士論文：**IHC 染色醫學影像病灶分割**
-- 🤝 與 **Google** 合作：病理影像視覺屬性生成與篩選
-- 🏢 2026 **國網中心（NCHC）** 暑期實習：自主提案並獨立完成病理影像結構化分析系統
-- 💼 正在尋找：**AI/ML、電腦視覺、LLM/VLM 應用研發工程** 職缺
-- 🏃 累積 10 年跑齡，2026 古都馬拉松 10K 總排名 **121 / 10,285**
+🎓 我是 **國立成功大學電機工程學系（資訊工程組）** 碩士生，預計 2027 年畢業，專注於 **電腦視覺、多模態 AI 與醫學影像分割**，具備資料集建置、模型訓練、LLM / VLM 應用到邊緣裝置部署的完整開發經驗。🔬 目前碩論研究 IHC 染色醫學影像病灶分割，並與 Google 合作進行病理影像視覺屬性生成與篩選；🏢 2026 年於 **國網中心（NCHC）** 實習期間，自主提案並獨立完成病理影像異常定位與結構化報告系統，也曾在課程中帶領 7 人團隊完成 ⚡ Jetson 邊緣 AI 量化部署。💼 目前正在尋找 **AI/ML、電腦視覺或 LLM/VLM 應用研發工程** 相關職缺。🏃 工作之外是累積 10 年跑齡的跑者。
 
 ---
 
@@ -53,99 +47,11 @@
 
 ## 🚀 Featured Projects
 
-### 🔬 病理影像異常區域定位與結構化分析系統
-
-> 🏢 **國網中心（NCHC）暑期實習** · 2026/07 – 2026/08 · 💡 自主提案、兩個月內獨立完成
-
-為降低醫師逐張閱片、標註與撰寫報告的時間成本：先以 YOLO 定位病理影像異常區域，再由地端 VLM 針對預測區域產出**結構化分析報告**。採用 **Teacher–Student 框架**，以雲端醫療模型 MedGemma 1.5 為 Teacher，在**凍結權重、不微調**的前提下，以 Microsoft SkillOpt 概念把 Skill 與 Prompt 當作「文字形式的可訓練參數」來最佳化。
-
-![YOLO11](https://img.shields.io/badge/YOLO11m-111F68?style=flat-square&logo=ultralytics&logoColor=white)
-![vLLM](https://img.shields.io/badge/vLLM-30A2FF?style=flat-square)
-![Mistral](https://img.shields.io/badge/Mistral_Small_3.1-FA520F?style=flat-square)
-![Gemma](https://img.shields.io/badge/Gemma4_%7C_MedGemma_1.5-4285F4?style=flat-square&logo=google&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white)
-![H200](https://img.shields.io/badge/NCHC_NANO4-NVIDIA_H200-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Slurm](https://img.shields.io/badge/Slurm-4B5563?style=flat-square)
-
-```mermaid
-flowchart LR
-    A["🖼️ 病理影像"] --> B["🎯 YOLO11m<br/>異常區域定位"]
-    B --> C["✂️ RoI"]
-    C --> D["🤖 Student VLM<br/>Mistral Small 3.1（凍結）"]
-    D --> E["📋 結構化 JSON 報告"]
-    T["☁️ Teacher<br/>MedGemma 1.5"] -. 參考輸出 .-> S["🧠 SkillOpt<br/>Skill / Prompt 最佳化"]
-    E -. 評估 .-> S
-    S -. 更新 Skill & Prompt .-> D
-```
-
-| 📊 指標 | 🔢 結果 |
+| 專案 | 連結 |
 |:--|:--|
-| 🎯 **YOLO11m 定位**（RefPath，9 種 YOLO 中最佳） | Recall **81.7%** · mAP50 **86.6%** · mAP50–95 **72.6%** · F1 **0.792** |
-| ✅ **Schema Validity** | 10.83% ➜ **99.29%** |
-| 🚫 **Schema 違規案例** | 12,006 ➜ **95** |
-| 📈 **Soft Score**（Mistral Small 3.1） | 0.0190 ➜ **0.1942** |
-| 🧩 **Field Similarity** | 19.50% ➜ **27.09%** |
-| ⏱️ **單張影像端到端** | 定位 + 報告 **< 5 分鐘** |
-
-> 💡 實驗發現：SkillOpt 對結構化能力較弱的模型效益最顯著；本身已具高結構化能力的 Gemma4 31B（baseline Soft Score 0.4272）則幾乎沒有提升。
-
-[![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Structured-Pathology-Image-Analysis-via-YOLO-Based-Abnormality-Detection-and-skill-optimization/blob/main/README.md)
-[![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1BliE2S8V1c)
-[![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1-3s4H_59ZUVVIXolgl8v3kofn-X0EsVymyNLGiIA_hE/edit?usp=sharing)
-
----
-
-### ⚡ NVIDIA Jetson Xavier NX 邊緣 AI 即時風格轉換系統
-
-> 🎓 成大電機「人工智慧於數位訊號分析之應用」課程 · 2026/04 – 2026/05 · 👑 **專案負責人（7 人團隊）**
-
-使用 **AdaIN**（Arbitrary Style Transfer, ICCV 2017）預訓練模型，完成 ONNX 轉換 → TensorRT **INT8 PTQ** 量化 → Jetson 整合部署，支援單張影像與即時 Camera 推論。負責專案規劃、架構設計與分工，並撰寫 Docker 容器化部署文件供團隊使用。
-
-![Jetson](https://img.shields.io/badge/Jetson_Xavier_NX-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
-![INT8](https://img.shields.io/badge/INT8_PTQ-F97316?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white)
-
-| 📊 指標 | 🔢 結果 |
-|:--|:--|
-| 🚀 **INT8 vs FP32**（Xavier GPU, 512×512） | 0.3307 s ➜ **0.1295 s**（**2.55×** 加速） |
-| 🖥️ **vs CPU FP32** | 約 **60×** 加速 |
-| 📦 **TensorRT Engine 體積** | 47.8 MB ➜ **9.7 MB**（約 **−80%**） |
-| 🎥 **即時 Camera Demo** | **7.7 FPS** |
-
-[![Repo](https://img.shields.io/badge/GitHub-Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Master/tree/main/114-2/ARTIFICAL%20INTELLIGENCE%20IN%20DIGITAL%20SIGNAL%20ANALYSIS%20AND%20ITS%20APPLICATIONS/Image-Style-Transfer)
-[![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1BzTQxur_tb-BX7tnjprv2iyfuoyTL0Am/edit?usp=sharing&ouid=105064244977899019676&rtpof=true&sd=true)
-[![Docker Doc](https://img.shields.io/badge/HackMD-Docker_Guide-333333?style=flat-square&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500/r1MNSk1czg)
-
----
-
-### 😮 多模態即時微表情辨識系統 🏆
-
-> 🎓 臺南大學資工系畢業專題 · 2022/01 – 2022/12 · 🥉 **畢業專題第三名** · 負責資料處理、模型實驗與系統整合
-
-透過攝影機即時偵測人臉，辨識 **正向 / 負向 / 驚訝 / 其他** 四類微表情。以 MediaPipe Face Mesh 裁切對齊人臉，**CNN** 擷取 Onset / Apex 靜態外觀特徵、**TV-L1 光流 + Inception** 擷取動態運動特徵，再以 **Self-Attention** 學習各類別特徵，前端以 PyQt5 實作 GUI。
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white)
-![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white)
-![CNN](https://img.shields.io/badge/CNN_%2B_Inception-6366F1?style=flat-square)
-![Optical Flow](https://img.shields.io/badge/TV--L1_Optical_Flow-0EA5E9?style=flat-square)
-![Self-Attention](https://img.shields.io/badge/Self--Attention-14B8A6?style=flat-square)
-
-| 📊 指標 | 🔢 結果 |
-|:--|:--|
-| 🎯 **CASME Accuracy** | **80.05%** |
-| 🧪 **Composite Dataset Accuracy** | **72.33%** |
-| 📈 **vs Feature Refinement baseline** | CASME II **+4.4** · SAMM **+1.9** · SMIC-HS **+5.1** 個百分點 |
-| 🔍 **Ablation**（移除光流 + Inception） | 72.74% ➜ 48.62%，驗證動態分支的關鍵貢獻 |
-| ✔️ **評估方式** | LOSO 交叉驗證 · 4 個獨立資料集 + Composite Dataset |
-
-[![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Bachelor/blob/main/Senior%20Project/README.md)
-[![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=WqFC5YTgZJo)
+| 🔬 **病理影像異常區域定位與結構化分析系統**（NCHC 實習） | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Structured-Pathology-Image-Analysis-via-YOLO-Based-Abnormality-Detection-and-skill-optimization/blob/main/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1BliE2S8V1c) [![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1-3s4H_59ZUVVIXolgl8v3kofn-X0EsVymyNLGiIA_hE/edit?usp=sharing) |
+| ⚡ **Jetson Xavier NX 邊緣 AI 即時風格轉換系統**（課程專案） | [![Repo](https://img.shields.io/badge/GitHub-Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Master/tree/main/114-2/ARTIFICAL%20INTELLIGENCE%20IN%20DIGITAL%20SIGNAL%20ANALYSIS%20AND%20ITS%20APPLICATIONS/Image-Style-Transfer) [![Slides](https://img.shields.io/badge/Google_Slides-Slides-FBBC04?style=flat-square&logo=googleslides&logoColor=white)](https://docs.google.com/presentation/d/1BzTQxur_tb-BX7tnjprv2iyfuoyTL0Am/edit?usp=sharing&ouid=105064244977899019676&rtpof=true&sd=true) [![Docker Doc](https://img.shields.io/badge/HackMD-Docker_Guide-333333?style=flat-square&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500/r1MNSk1czg) |
+| 😮 **多模態即時微表情辨識系統**（畢業專題 🥉） | [![Repo](https://img.shields.io/badge/GitHub-README-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JianHuangLyu/Bachelor/blob/main/Senior%20Project/README.md) [![Demo](https://img.shields.io/badge/YouTube-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=WqFC5YTgZJo) |
 
 ---
 
