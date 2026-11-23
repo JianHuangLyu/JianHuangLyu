@@ -24,7 +24,7 @@ During my summer internship, I proposed and independently built a pathology imag
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Skills
 
 <div align="center">
 
