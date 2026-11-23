@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
 | 專案 | 連結 |
 |:--|:--|
