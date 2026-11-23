@@ -18,7 +18,9 @@ Focus on **Computer Vision**、**LLM/VLM Application** and **Medical Image Segme
 
 ## 🧑‍💻 About Me
 
-I'm a master's student in Electrical Engineering (Computer Science track) at National Cheng Kung University (NCKU). I focus on computer vision, LLM/VLM Application, and medical image segmentation, with end-to-end experience spanning dataset construction, model training, LLM / VLM applications, and edge-device deployment. During my summer internship, I proposed and independently built a pathology image abnormality localization and structured reporting system. I also led a 7-person course project team to deploy a quantized edge AI model on NVIDIA Jetson.
+I'm a master's student in Electrical Engineering (Computer Science Group) at National Cheng Kung University (NCKU).  
+I focus on computer vision, LLM/VLM Application, and medical image segmentation, with end-to-end experience spanning dataset construction, model training, LLM / VLM applications, and edge-device deployment.  
+During my summer internship, I proposed and independently built a pathology image abnormality localization and structured reporting system. I also led a 7-person course project team to deploy a quantized edge AI model on NVIDIA Jetson.
 
 ---
 
