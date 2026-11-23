@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2A5298&center=true&vCenter=true&width=640&lines=Computer+Vision+%7C+Medical+Image+Segmentation;Multimodal+AI+%26+LLM%2FVLM+Applications;Edge+AI+Deployment+on+NVIDIA+Jetson;Seeking+AI%2FML+R%26D+Roles+(2027)" alt="Typing SVG" />
 
-### 👋 嗨，我是 **呂建篁 Jian-Huang Lyu**
+### 👋 嗨! 我是 **呂建篁 Jian-Huang Lyu**
 
 成大電機（資工組）碩士生 · 專注 **電腦視覺**、**多模態 AI**、**LLM/VLM 應用** 與 **醫學影像分割** · 📍 Tainan, Taiwan
 
