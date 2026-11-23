@@ -4,9 +4,9 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2A5298&center=true&vCenter=true&width=640&lines=Computer+Vision+%7C+Medical+Image+Segmentation;Multimodal+AI+%26+LLM%2FVLM+Applications;Edge+AI+Deployment+on+NVIDIA+Jetson+Xavier" alt="Typing SVG" />
 
-### 👋 嗨! 我是 **呂建篁 Jian-Huang Lyu**
+### 👋 Hi! I'm **Jian-Huang Lyu**
 
-成大電機（資工組）碩士生 · 專注 **電腦視覺**、**多模態 AI**、**LLM/VLM 應用** 與 **醫學影像分割** · 📍 Tainan, Taiwan
+Focus on **Computer Vision**、**LLM/VLM Application** and **Medical Image Segmentation** · 📍 Tainan, Taiwan
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-JHWEB-1e3c72?style=for-the-badge&logo=githubpages&logoColor=white)](https://jianhuanglyu.github.io/JHWEB/)
 [![Email](https://img.shields.io/badge/Email-a7929771%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a7929771@gmail.com)
@@ -18,7 +18,7 @@
 
 ## 🧑‍💻 About Me
 
-我是 **國立成功大學電機工程學系（資訊工程組）** 碩士生，預計 2027 年畢業，專注於 **電腦視覺、多模態 AI 與醫學影像分割**，具備資料集建置、模型訓練、LLM / VLM 應用到邊緣裝置部署的完整開發經驗。曾於 **國網中心（NCHC）** 暑期實習期間，自主提案並獨立完成病理影像異常定位與結構化報告系統，也曾在課程中帶領 7 人團隊完成 Jetson 邊緣 AI 量化部署。
+I'm a master's student in Electrical Engineering (Computer Science track) at National Cheng Kung University (NCKU). I focus on computer vision, LLM/VLM Application, and medical image segmentation, with end-to-end experience spanning dataset construction, model training, LLM / VLM applications, and edge-device deployment. During my summer internship, I proposed and independently built a pathology image abnormality localization and structured reporting system. I also led a 7-person course project team to deploy a quantized edge AI model on NVIDIA Jetson.
 
 ---
 
