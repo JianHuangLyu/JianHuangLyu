@@ -9,10 +9,10 @@
 成大電機（資工組）碩士生 · 專注 **電腦視覺**、**多模態 AI** 與 **醫學影像分割** · 📍 Tainan, Taiwan
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-JHWEB-1e3c72?style=for-the-badge&logo=githubpages&logoColor=white)](https://jianhuanglyu.github.io/JHWEB/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jianhuanglyu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jianhuanglyu)
+(https://www.linkedin.com/in/jianhuanglyu)
 [![Email](https://img.shields.io/badge/Email-a7929771%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a7929771@gmail.com)
 [![HackMD](https://img.shields.io/badge/HackMD-%40abcd09500-333333?style=for-the-badge&logo=hackmd&logoColor=white)](https://hackmd.io/@abcd09500)
-[![Resume](https://img.shields.io/badge/Resume-PDF-34A853?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1vBFfm8cvseu5qnkpBR-wVfnuOK81z-iy/view?usp=sharing)
+
 
 ![Profile Views](https://komarev.com/ghpvc/?username=JianHuangLyu&color=2a5298&style=flat-square&label=Profile+Views)
 
