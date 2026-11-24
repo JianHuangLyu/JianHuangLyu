@@ -26,12 +26,6 @@ During my summer internship, I proposed and independently built a pathology imag
 
 ## 🛠️ Skills
 
-<div align="center">
-
-<a><img src="https://skillicons.dev/icons?i=py,pytorch,docker,fastapi,git,github&perline=6" alt="Skill Icons" /></a>
-
-</div>
-
 | Class | Skill |
 |:--|:--|
 | **Programming & Tools** | <a><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a> <a><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /></a> <a><img src="https://img.shields.io/badge/Slurm_(HPC)-4B5563?style=flat-square" alt="Slurm" /></a> |
