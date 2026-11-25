@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=Jian-Huang%20Lyu&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=M.S.%20%40%20NCKU%20%7C%20Computer%20Vision%20%7C%20Multimodal%20AI%20%7C%20LLM/VLM%20Application%20%7C%20Segmentation&descSize=18&descAlignY=58&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2A5298&center=true&vCenter=true&width=640&lines=Computer+Vision+%7C+Medical+Image+Segmentation;Multimodal+AI+%26+LLM%2FVLM+Applications;Edge+AI+Deployment+on+NVIDIA+Jetson+Xavier" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=640&lines=Computer+Vision+%7C+Medical+Image+Segmentation;Multimodal+AI+%26+LLM%2FVLM+Applications;Edge+AI+Deployment+on+NVIDIA+Jetson+Xavier" alt="Typing SVG" />
 
 ### 👋 Hi! I'm **Jian-Huang Lyu**
 
